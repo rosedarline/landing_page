@@ -67,7 +67,8 @@ body {
     color: #fff;
 }
 .section-b .box-2 {
-    background: #f9f9f9;
+    background: #5ef3ec;
+
 }
 
 .section-c {
@@ -75,4 +76,11 @@ body {
     background: #d2d4d4;
     color: #02312f;
     text-align: center;
+}
+
+@media (max-width: 768px) {
+    .section-b {
+        display: flex;
+        flex-direction: column;
+    }
 }
