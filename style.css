@@ -23,6 +23,12 @@ body {
     padding: 0 20px;
 }
 
+.showcase .social {
+    padding: 10px 30px;
+    font-size: 35px;
+
+}
+
 .showcase h1 {
     font-size: 50px;
     line-height: 1.2;
