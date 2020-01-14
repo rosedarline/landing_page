@@ -5,9 +5,17 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+a:visited {
+    color: inherit;
+}
+
+a {
+    cursor: pointer;
+}
+
 .showcase::after {
     content:'';
-    height: 100vh;
+    height: 60vh;
     width: 100%;
     background-image: url('./img/showcase.jfif');
     background-size: cover;
@@ -32,9 +40,9 @@ body {
 .content {
     position: absolute;
     z-index: 1;
-    top: 10%;
+    /* top: 5%; */
     left: 50%;
-    margin-top: 105px;
+    margin-top: 70px;
     margin-left: -145px;
     width: 300px;
     height: 350px;
@@ -43,13 +51,13 @@ body {
 }
 
 .content .title {
-    font-size: 1rem;
-    margin-top: 1rem;
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
 }
 
 .content .text {
     line-height: 2;
-    margin-top: 1rem;
+    margin-top: 0.5rem;
 }
 
 .container {
@@ -59,17 +67,19 @@ body {
     padding: 4rem 1rem;
 }
 
+
 .grid-3 {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-gap: 20px;
 }
 
 .grid-2 {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-gap: 20px;
 }
+
  
 .center {
     text-align: center;
